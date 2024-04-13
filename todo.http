@@ -1,0 +1,33 @@
+http://localhost:3000/
+
+###
+http://localhost:3000/todos/
+
+###
+
+http://localhost:3000/todos/1
+
+###
+
+POST http://localhost:3000/todos/
+Content-Type: application/json
+
+{
+  "id": 4,
+  "title": "Learn JS",
+  "description": "Introduction to JS",
+  "status": "TO DO"
+}
+
+###
+
+DELETE http://localhost:3000/todos/4/
+
+###
+
+PUT http://localhost:3000/todos/1
+Content-Type: application/json
+
+{
+  "status": "TO DO"
+}
